@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component Snapshot With data 1`] = `
+<button
+  className="card"
+  data-qa="click-open-detail-Pikachu"
+  onClick={[Function]}
+  type="button"
+>
+  <img
+    alt="PokeImage"
+    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+  />
+  <h4
+    className="card__name"
+  >
+    Pikachu
+  </h4>
+  <span
+    className="card__id"
+  >
+    1
+  </span>
+</button>
+`;

@@ -1,0 +1,23 @@
+@import "./../../assets/styles/colors";
+@import "./../../assets/styles/layout";
+
+.pagination {
+  text-align: center;
+  padding: $space * 2;
+
+  &__btn {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid black;
+
+    &--arrow {
+      width: 50px;
+    }
+
+    &--active {
+      background-color: $main;
+      color: $white;
+    }
+  }
+}

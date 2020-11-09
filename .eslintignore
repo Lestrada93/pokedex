@@ -1,0 +1,4 @@
+node_modules/
+*.test.js
+sw.js
+src/Core/Pokedex/endpoints.js

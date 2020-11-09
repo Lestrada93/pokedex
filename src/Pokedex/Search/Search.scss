@@ -1,0 +1,15 @@
+@import "./../../assets/styles/layout";
+@import "./../../assets/styles/colors";
+
+.search {
+  width: 90%;
+  max-width: 500px;
+  padding: $space $space $space 40px;
+  background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png) no-repeat $white 5px;
+  background-size: 25px;
+
+  &__wrapper {
+    text-align: center;
+    padding: $space * 2;
+  }
+}

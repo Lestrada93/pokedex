@@ -1,0 +1,28 @@
+@import "./../assets/styles/layout";
+
+.pokedex {
+  padding: $space;
+  background: url("./../assets/images/pokepattern.jpg") repeat;
+
+  &__grid {
+    @include flex();
+    @include justify-content(space-around);
+    @include align-items(flex-start);
+    flex-wrap: wrap;
+  }
+
+  &__image-wrapper {
+    text-align: center;
+    padding: $space;
+  }
+
+  &__not-found {
+    text-align: center;
+    padding: $space;
+
+    &__text {
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
+}

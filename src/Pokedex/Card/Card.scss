@@ -1,0 +1,28 @@
+@import "./../../assets/styles/layout";
+@import "./../../assets/styles/colors";
+$cardSize: 200px;
+
+.card {
+  width: $cardSize;
+  height: $cardSize;
+  border: 1px solid $light-dark;
+  margin: $space;
+  background-color: $white;
+  cursor: pointer;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  }
+
+  &__name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    text-transform: capitalize;
+  }
+
+  &__id {
+    font-style: italic;
+  }
+}

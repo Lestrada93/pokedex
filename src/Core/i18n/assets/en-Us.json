@@ -1,0 +1,13 @@
+{
+  "HEIGHT": "Height",
+  "EXPERIENCE": "Experience",
+  "WEIGHT": "Weight",
+  "TYPE": "Type",
+  "STATISTICS": "Statistics",
+  "SKILL": "Skill",
+  "LEVEL": "Level",
+  "NEXT": "Next",
+  "PREV": "Prev",
+  "NOT_FOUND": "No results found",
+  "SEARCH_BY_NAME": "Search by name..."
+}
